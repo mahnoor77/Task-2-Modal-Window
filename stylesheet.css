@@ -1,0 +1,38 @@
+#employee-modal{
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: white;
+}
+
+.modal-header{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #1b91db;
+
+}
+
+.modal-header-content{
+    font-size: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#confirmIntBtn{
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #36bc65;
+    margin: 30px;
+    float: right;
+}
