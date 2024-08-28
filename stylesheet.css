@@ -5,20 +5,20 @@
     border-radius: 10px;
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 35%;
     background-color: white;
 }
 
 .modal-header{
     border-radius: 10px 10px 0px 0px;
-    background-color: #1b91db;
+    background-color: lavender;
 
 }
 
 .modal-header-content{
     font-size: 20px;
     padding-top:20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-weight: bold;
 }
 
@@ -26,13 +26,45 @@
     width: auto;
     border: none;
     color: white;
-    padding: 8px 12px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display:flex;
     font-size: 16px;
     cursor: pointer;
-    background-color: #36bc65;
-    margin: 30px;
-    float: right;
+    background-color: #208ee8;
+    margin-top: 10%;
+    margin-left:40%;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+
+#confirmBtn{
+    width: auto;
+    border: none;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:#208ee8;
+    width: 100%;
+    margin-bottom: auto;
+    
+}
+
+body{
+    background-color: aqua;
+}
+.div1{
+
+text-align: center;
+font-size: 55px;
+margin-top: 5%;
+color:black;
+font-weight: bold;
+}
+.modal-container{
+    padding-top: 10px;
 }
